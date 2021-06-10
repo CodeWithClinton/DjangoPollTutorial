@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+<h3><strong>Django Polls Application</strong></h3>
+
+<div class="list-group">
+    {% for question in questions %}
+    <a href=" {% url 'vote' question.id %} " class="list-group-item list-group-item-action">
+        <h5>{{question.question}}</h5></a>
+   {% endfor %}
+    
+</div>
+
+
+
+
+    
+    
+
+{% endblock %}

@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+.list-group{
+    margin-top: 30px;
+}
+.btn-primary{
+    margin-top: 20px !important;
+}
+label,li,input{
+    cursor: pointer
+}
